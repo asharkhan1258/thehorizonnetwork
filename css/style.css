@@ -34,7 +34,12 @@ a {
 img {
   display: block;
 }
-
+.navbar-brand{
+  color: #91ff5f;
+}
+.nav-f{
+  color: #91ff5f;
+}
 .site-header {
   background: #050505;
 }
@@ -658,10 +663,13 @@ img {
     color: #85f3ca;
 }
 
-.contact-info-value {
+.contact-info-value a{
     color: #a9a9a9;
     font-size: 15px;
     line-height: 1.6;
+}
+.contact-info-value a:hover{
+    color: #85f3ca;
 }
 
 
